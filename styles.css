@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(#12c7c7, #91e5a3);
+    
+}
+.container {
+    height: 300px;
+    width: 100%;
+    margin-top: 100px;
+
+}
+
+#display {
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 8px auto;
+    font-family: monospace;
+    color: #923939;
+    
+
+}
+   
+.buttons {
+    text-align: center;
+      
+}
+
+#startStop, #reset {
+    font-family: monospace;
+    background-color: #09053b;
+    color: #b1afaf;
+    margin: auto 10px;
+    border-radius: 5px;
+    padding: 3px 10px;
+
+}
