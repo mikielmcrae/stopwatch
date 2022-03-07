@@ -1,22 +1,28 @@
 body {
-    background: linear-gradient(#12c7c7, #91e5a3);
+    background: linear-gradient(#3382e9, #1512c7);
     
 }
 .container {
     height: 300px;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 35vh;
 
 }
 
 #display {
-    width: 100%;
-    font-size: 72px;
+    width: min-content;
+    padding: 10px 20px;
+    background-color: rgb(31, 31, 31);
+    font-size: 6em;
     text-align: center;
-    margin: 8px auto;
+    margin: 20px auto;
     font-family: monospace;
-    color: #923939;
+    color: #32c415;
     cursor: default;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 80px;
+    box-shadow:rgb(0, 0, 0);
 
 }
    
@@ -25,14 +31,35 @@ body {
       
 }
 
-#startStop, #reset {
+.button {
     font-family: monospace;
-    background-color: #09053b;
-    color: #b1afaf;
+    background-color: #000000;
+    color: #ffffff;
     margin: auto 10px;
-    border-radius: 5px;
-    padding: 3px 10px;
+    border-radius: 50px;
+    border-style: none;
+    padding: 3px 15px;
+    width: 80px;
+    height: 30px;
 
+}
+
+
+#reset {
+    color: red;
+}
+.button:hover {
+    /* width: 82px;
+    height: 32px;
+    margin: 0px 9px; */
+    box-shadow: 1px 1px 2px black;
+    
+}
+.button:active {
+   
+    width: 78px;
+    height: 28px;
+    margin: auto 11px;
 }
 
 button:hover {
