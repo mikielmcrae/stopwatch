@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(#3382e9, #1512c7);
+    overflow: hidden;
     
 }
 .container {
@@ -28,6 +29,7 @@ body {
    
 .buttons {
     text-align: center;
+    
       
 }
 
@@ -64,4 +66,31 @@ body {
 
 button:hover {
     cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    html {
+        height: 100%;
+    }
+    body {
+        height: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    #display {
+       margin-top: 50%;
+       font-size: 3.5em;
+    
+    }
+    .buttons {
+        flex-direction: column;
+        
+    }
+    .button {
+        
+        height: 40px;
+        width: 80px;
+    }
 }
